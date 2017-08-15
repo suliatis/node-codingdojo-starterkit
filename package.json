@@ -1,0 +1,29 @@
+{
+  "name": "codingdojo-starterkit",
+  "version": "1.0.0",
+  "description": "Simple starter kit for NodeJS Coding Dojo projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon",
+    "test": "mocha index.spec.js --reporter spec",
+    "test:watch": "npm run test -- --reporter min --watch"
+  },
+  "keywords": [],
+  "author": "Attila Gonda <pcdevil7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.1.1",
+    "mocha": "3.5.0",
+    "nodemon": "1.11.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcdevil/node-codingdojo-starterkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pcdevil/node-codingdojo-starterkit/issues"
+  },
+  "homepage": "https://github.com/pcdevil/node-codingdojo-starterkit#readme"
+}
